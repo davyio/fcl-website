@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Logo from './components/Logo';
 
@@ -46,6 +45,7 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#111111] text-[#F5F5F5] font-['Montserrat',_sans-serif] overflow-hidden">
       <main className="flex-grow flex flex-col items-center justify-center p-6 space-y-8 md:space-y-10 text-center">
+        {/* FCL Official Website Launch Commit */}
         <AnimatedItem isVisible={visibility[0]} className="w-48 h-auto md:w-64">
           <Logo />
         </AnimatedItem>
